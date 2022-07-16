@@ -1,0 +1,43 @@
+.success-img{
+    margin-top: 30px;
+}
+
+.notes{
+    margin-top: 20px;
+}
+
+.qa{
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.options h5{
+    margin-top: 26px;
+}
+
+@media only screen and (max-width: 600px) {
+    .success-img{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+
+    }
+    .qa{
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .success-img{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+
+    }
+    .qa{
+        width: 50%;
+    }
+}

@@ -1,0 +1,13 @@
+@media only screen and (min-width:600px) {
+    .quizIntro{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 500px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+    }
+}
+
+

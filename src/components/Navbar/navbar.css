@@ -1,0 +1,93 @@
+.logo{
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  margin: 0px 12px 0px 9px;
+}
+
+.header-title{
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.header-title:hover{
+  text-decoration: underline;
+}
+
+.dropdown-menu{
+  right: 0 !important;
+  left:auto !important;
+}
+
+.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    color: black !important;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.container-fluid{
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link:after,
+.nav-link:before {
+  content: "";
+  position: absolute;
+  display: block;
+  border: 0px solid transparent;
+  width: 0%;
+  height: 0%;
+  transition: all 0.5s ease;
+}
+
+.navHover{
+  padding: 12px !important;
+  margin: 8px !important;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .navHover{
+    padding: 8px !important;
+    margin: 8px
+  }
+
+  .photoBased{
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.navHover:after {
+  width: 0%;
+  height: 0%;
+  top: 0;
+  left: 0;
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+}
+
+.navHover:before {
+    width: 0%;
+    height: 0%;
+    right: 0;
+    bottom: 0;
+    border-bottom: 2px solid transparent;
+    border-right: 2px solid transparent;
+
+  }
+  
+  
+.navHover:hover::before,
+.navHover:hover::after {
+    width: 100%;
+    height: 100%;
+    border-color: black;
+}

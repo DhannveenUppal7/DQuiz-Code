@@ -1,0 +1,160 @@
+:root{
+    --qprimary: rgb(150, 21, 197)
+}
+
+.questionBox{
+    background-color: var(--qprimary);
+    padding: 15px;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.default{
+    background-color: white;
+} 
+
+.default h5{
+    color: black;
+    font-weight:bold !important;
+
+} 
+
+.hdl{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 38px !important;
+}
+
+.wrong{
+    background-color: red !important;
+} 
+
+.wrong h5{
+    color: white;
+    font-weight: 900 !important;
+
+}
+
+
+.correct{
+    background-color: #11b41e !important;
+} 
+
+.correct h5{
+    color: white;
+    font-weight: 900 !important;
+
+}
+
+.quizImage{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .answers{
+        padding: 0px;
+        display: block;
+        width: 100%;
+        
+    }
+
+    .questionBox{
+        width: fit-content;
+    }
+    .answer{
+        background-color: white;
+        margin-bottom: 18px;
+        border-radius: 30px;
+        box-shadow: 5px 10px 25px #888888;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 100%;
+        align-items: center !important;
+        vertical-align: middle;
+        width: auto;
+    }
+
+    .answer h5{
+        align-items: center !important;
+        vertical-align: middle !important;
+        height: auto;
+        width: auto;
+        text-align: center;
+        margin: 15px;
+        font-size:inherit;
+    }
+
+    .headBox{
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .headBox h2{
+        margin-top: 18px;
+        margin-bottom: 30px;
+    }
+
+    
+}
+
+.answer{
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 600px) {
+    .quizImage{
+        max-width: 530px;
+    }
+    .answers{
+        display: flex;
+        align-items: center !important;
+    }
+    .answer{
+        background-color: white;
+        margin: 20px;
+        border-radius: 30px;
+        box-shadow: 5px 10px 25px #888888;
+        padding: 18px 50px 50px 50px !important;
+        width: 50%;
+        align-items: center !important;
+        vertical-align: middle;
+    }
+
+    .answer h5{
+        align-items: center !important;
+        vertical-align: middle !important;
+        margin-top: 5%;
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
+
+
+    .headBox{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    .headBox h2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
+

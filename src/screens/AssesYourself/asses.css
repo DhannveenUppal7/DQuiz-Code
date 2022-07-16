@@ -1,0 +1,47 @@
+@media only screen and (min-width: 600px) {
+    .categories{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 50px;
+    }
+
+    .categories img{
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .categories img{
+        height: 130px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .categories img{
+        height: 160px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .categories{
+        display: block;
+        justify-content: space-around;
+    }
+
+    .categories img{
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+.categories img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* 600 and 800 */

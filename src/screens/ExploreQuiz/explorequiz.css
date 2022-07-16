@@ -1,0 +1,84 @@
+.header{
+    margin: 40px;
+    text-align: center;
+}
+
+.header h1{
+    font-weight: bold;
+}
+
+.searchContainer{
+    align-items: baseline;
+}
+
+@media only screen and (max-width:1200px) {
+    .searchContainer{
+        width: 100%;
+        display: flex !important;
+        margin-top: 30px;
+    }
+    .searchContainer input, button{
+        font-size: 18px !important;
+        margin-top: 18px;
+    }
+    .col-md-4{
+        margin-right: 134px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .searchContainer{
+        width: 100%;
+        display: flex !important;
+        margin-top: 30px;
+    }
+    .searchContainer input, button{
+        font-size: 18px !important;
+        margin-top: 18px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .searchContainer{
+        width: 100%;
+        display: block !important;
+    }
+    .searchContainer input, button{
+        margin-top: 20px;
+    }
+    .row{
+        display: block;
+    }
+    .col-md-4{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.filterFull{
+    margin-top: 18px;
+}
+.filterContainer{
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .filterContainer{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .filterContainer{
+        display: flex;
+        justify-content: space-around;
+    }
+    .no{
+        margin-bottom: 22%;
+    }
+}
+
+
+
+

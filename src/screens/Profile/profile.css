@@ -1,0 +1,21 @@
+.contentDiv{
+    text-align: center;
+}
+
+.contentDiv img{
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contentDiv h2{
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .fontS{
+        font-size: inherit;
+
+    }
+}

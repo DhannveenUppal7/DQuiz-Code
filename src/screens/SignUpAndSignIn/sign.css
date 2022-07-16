@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.heading{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+.input-field{
+    margin: 7px !important;
+}
+.input-field label {
+    margin-top: 25px;
+    font-size: 18px !important;
+}
+
+.input-field input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(147, 133, 255);
+    font-size: 20px;
+    font-family: Tahoma;
+    margin-bottom: 10px;
+    
+}
+.sign {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 200px;
+    font-size: 20px;
+    margin: 15px;
+    width: auto;
+    height: auto;
+}
+
+.sign2 {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-size: 20px;  
+    width: 200px;
+    width: auto;
+    height: auto;
+}
+.formDiv{
+    background: linear-gradient(#a1ffce 0%, #FAFFD1 100%);
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: 5px 10px 5px #888888;
+    padding: 50px !important;
+}

@@ -6,13 +6,7 @@ import { getStorage } from "firebase/storage";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDptCQDAzYzzWFZOP7DcqAhrYUcxtewGDE",
-  authDomain: "dquiz-d29ef.firebaseapp.com",
-  projectId: "dquiz-d29ef",
-  storageBucket: "dquiz-d29ef.appspot.com",
-  messagingSenderId: "489335460244",
-  appId: "1:489335460244:web:04ce42ddac968816483f81",
-  measurementId: "G-QRYKW292CP"
+  // your credentials here...
 };
 
 const app = initializeApp(firebaseConfig);
